@@ -1729,7 +1729,6 @@ header .logo a {
 #resume .card-list{
 	margin-left: 0%;
 	list-style: none;
-
 }
 #resume .card-wrapper{
 	width: 100%;
@@ -1737,14 +1736,15 @@ header .logo a {
 }
 #resume .card-list .card-item{
 	width: 94.5% !important;
-	max-width: 515px ;
+	max-width: 521px ;
+	height: 200px;
 	user-select: none;
 	-webkit-user-select: none;
 	display: block;
 	color: #292133;
 	background: #d3d4dd;
-	padding: 15px;
-	border-radius: 2px;
+	padding: 2.8%;
+	border-radius: 12px;
 	text-decoration: none;
 	justify-content: center;
 	align-items: center;
@@ -1776,6 +1776,7 @@ header .logo a {
 	#resume .timeline-content {
 		padding-left: 50px;
 	}
+	
 }
 @media only screen and (max-width:768px) {
 	#resume .timeline-wrap::before {
@@ -1813,6 +1814,10 @@ header .logo a {
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 7rem;
 	}
+	#resume .card-list .card-item{
+		max-width: 578px;
+		height: 250px;
+	}
 }
 @media only screen and (max-width:480px) {
 	#resume .resume-header h2 {
@@ -1833,7 +1838,8 @@ header .logo a {
 		padding-left:4.5rem;
 	}
 	#resume .card-list .card-item{
-		width: 93.5% !important;
+		width: 91.7% !important;
+		height: 300px;
 		padding: 13px;
 	}
 }
