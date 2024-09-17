@@ -1737,7 +1737,7 @@ header .logo a {
 }
 #resume .card-list .card-item{
 	width: 94.5% !important;
-	/* max-width: 515px !important; */
+	max-width: 515px ;
 	user-select: none;
 	-webkit-user-select: none;
 	display: block;
@@ -1749,11 +1749,14 @@ header .logo a {
 	justify-content: center;
 	align-items: center;
 	transition: 0.2 ease;
+	/* box-sizing: border-box; */
+	/* position: relative; */
 }
 #resume .card-list .card-item img{
-	width: 25% ;
-	height: 25% ;
+	max-width: 30% ;
+	height: auto;
 	border-radius: 6px;
+	object-fit: cover;
 }
 /**
  * responsive:
